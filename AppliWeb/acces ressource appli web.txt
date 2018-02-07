@@ -1,0 +1,8 @@
+<%	
+	using (System.IO.StreamReader sr = new System.IO.StreamReader(@"c:\AppliWeb\test.txt"))
+            {
+                String line = sr.ReadToEnd();
+                Response.Write(line);
+            }
+
+%>
