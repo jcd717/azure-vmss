@@ -89,3 +89,7 @@ az vmss extension set \
   --vmss-name $vmssName \
   --settings '{ "fileUris": ["https://raw.githubusercontent.com/jcd717/azure-vmss/master/install-linux-php/install.sh"], "commandToExecute": "./install.sh" }'
 
+
+# puis (dans le portail par exemple), faire une probe -> le nom d'hôte dpoit alors être 127.0.0.1 pour que ça marche
+# associer ce probe à HTTP Settings
+
