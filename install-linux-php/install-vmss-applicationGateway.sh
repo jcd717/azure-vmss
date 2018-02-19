@@ -62,7 +62,7 @@ az network application-gateway create \
 vmssName=vmss-ag
 userName=bruno
 userPassword='Pa$$w0rd1234'
-vmSKU='Standard_B2S'
+vmSKU='Standard_B1S'
 
 az vmss create \
   --name $vmssName \
