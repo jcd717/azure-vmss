@@ -17,7 +17,8 @@
     }
 
     $hostname=gethostname();
-    $ip=gethostbyname($hostname);
+    //$ip=gethostbyname($hostname);
+    $ip=$_SERVER['SERVER_ADDR'];
 
     $_SESSION["nbRefreshs"]++;
 
