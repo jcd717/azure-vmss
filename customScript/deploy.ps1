@@ -14,4 +14,4 @@ cp -Recurse .\AppliWeb\* C:\inetpub\wwwroot
 cd /
 rm -Recurse tmp
 
-echo "coucou" >/wwwroot/test.txt
+
