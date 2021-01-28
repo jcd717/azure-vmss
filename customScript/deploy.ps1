@@ -18,6 +18,6 @@ cp -Recurse .\AppliWeb\* C:\inetpub\wwwroot
 cd /
 rm -Recurse tmp
 
-echo "version 1" > c:/inetpub/wwwroot/page.html
+echo "version 2" > c:/inetpub/wwwroot/page.html
 
 
